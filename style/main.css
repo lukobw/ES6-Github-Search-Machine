@@ -1,0 +1,35 @@
+body {
+    background-image: url("../img/dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 200px auto;
+    text-align: center;
+}
+.header {
+    color: #fff;
+    margin: 50px 0;
+}
+.user {
+    margin: 25px;
+}
+
+.usersList {
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+label {
+    color: white;
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
